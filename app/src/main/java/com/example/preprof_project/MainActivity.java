@@ -1,6 +1,7 @@
 package com.example.preprof_project;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button bt1 = (Button) findViewById(R.id.button1);
+        AppCompatButton bt1 = findViewById(R.id.button1);
         TextView t1 = findViewById(R.id.textView2);
         t1.setText("1");
         TextView t2 = findViewById(R.id.textView4);

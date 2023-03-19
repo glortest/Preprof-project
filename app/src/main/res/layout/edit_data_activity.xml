@@ -40,7 +40,7 @@
         android:orientation="horizontal"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="1dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="150dp"
         android:background="@drawable/deeded3"
         android:layout_marginLeft="10dp">
 
@@ -62,11 +62,13 @@
 
     </LinearLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
         android:text="Перерасчитать"
+        android:background="@drawable/layout_bg"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -145,8 +145,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_marginLeft="-10dp"
-                android:background="@drawable/deeded3"
+                android:layout_marginLeft="0dp"
                 android:textColor="@android:color/black"
                 android:textSize="15dp"
                 android:text="Характеристики автоклава" />
@@ -158,7 +157,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="0"
-                android:layout_marginRight="-10dp"
+                android:layout_marginRight="0dp"
                 android:textColor="@android:color/black"
                 android:textSize="15dp" />
 
@@ -194,17 +193,18 @@
 
         </LinearLayout>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
             android:text="Ввести новые данные"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-
+            android:background="@drawable/layout_bg"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499" />
+            app:layout_constraintVertical_bias="0.499"
+            android:textColor="@color/white"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

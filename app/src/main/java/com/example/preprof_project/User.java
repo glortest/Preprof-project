@@ -17,7 +17,7 @@ public class User {
     int Oxi;
     float p = (float) 3.14;
     double k = Math.sin((-p / 2) + (p * (T + 0.5*Oxi)/40));
-    double G = G0 + k;
+    double G = G0 + G0*k;
 
     public int getMaxV() {
         return maxV;

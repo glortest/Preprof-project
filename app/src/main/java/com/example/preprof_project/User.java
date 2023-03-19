@@ -7,6 +7,8 @@ public class User {
     int oxygen = 7;
     int nuclearOil = 10;
     int W;
+    int m;
+
 
 
 }

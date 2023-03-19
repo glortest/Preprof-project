@@ -10,9 +10,16 @@ public class User {
     int nuclearOilK;
     int W;
     int T;
-    int m = 192000;
+    int m = 200000;
     int mSh = 1000;
     int G0;
+    int id;
+
+    public User(){
+    }
+    public User(int id, int oxygen, int m, int sh, int T, int W, int nuclearOil){
+    }
+
 
     int Oxi;
     float p = (float) 3.14;

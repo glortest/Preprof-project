@@ -1,10 +1,10 @@
 package com.example.preprof_project;
 
 public class Point {
-    public Integer s;
-    public Integer c;
-    public Integer id;
-    public Point(Integer id, Integer c, Integer s){
+    public int s;
+    public int c;
+    public int id;
+    public Point(int id, int c, int s){
         this.c = c;
         this.s = s;
         this.id = id;

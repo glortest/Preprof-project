@@ -17,6 +17,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="1dp"
             android:layout_marginTop="25dp"
+            android:background="@drawable/deeded3"
             android:layout_marginLeft="10dp">
 
             <TextView
@@ -24,6 +25,8 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
                 android:text="Количество дней" />
 
             <TextView
@@ -31,6 +34,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
                 android:text="0" />
 
         </LinearLayout>
@@ -39,8 +44,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="45dp"
             android:layout_marginLeft="10dp"
+            android:background="@drawable/deeded3"
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="100dp">
 
@@ -49,14 +55,18 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Оставшиеся ресурсы" />
+                android:text="Оставшиеся ресурсы"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"/>
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"/>
 
         </LinearLayout>
 
@@ -64,7 +74,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="55dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/deeded3"
             android:layout_marginLeft="10dp"
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="100dp">
@@ -74,39 +85,18 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Расходуемые ресурсы" />
+                android:text="Расходуемые ресурсы"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"/>
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="0" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="70dp"
-            android:layout_marginLeft="10dp"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="100dp">
-
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Распределение мощности" />
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"/>
 
         </LinearLayout>
 
@@ -116,6 +106,37 @@
             android:orientation="horizontal"
             android:layout_marginTop="85dp"
             android:layout_marginLeft="10dp"
+            android:background="@drawable/deeded3"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="100dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Распределение мощности"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/deeded3"
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="100dp">
 
@@ -124,14 +145,20 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/deeded3"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
                 android:text="Характеристики автоклава" />
+
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
 
         </LinearLayout>
 
@@ -139,26 +166,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="125dp"
             android:layout_marginLeft="10dp"
             app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/deeded3"
             tools:layout_editor_absoluteX="100dp">
 
             <TextView
                 android:id="@+id/textVie11"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
                 android:layout_weight="1"
-                android:text="Численность SH" />
+                android:text="Численность SH"/>
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"/>
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

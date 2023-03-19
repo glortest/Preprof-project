@@ -4,6 +4,7 @@ public class Point {
     public int s;
     public int c;
     public int id;
+    public Point(){}
     public Point(int id, int c, int s){
         this.c = c;
         this.s = s;
@@ -12,6 +13,9 @@ public class Point {
 
     public Integer getId() {
         return id;
+    }
+    public void setId(int i) {
+        this.id = id;
     }
 
     public Integer getC() {

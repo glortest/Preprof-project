@@ -89,5 +89,24 @@ public class DatabaseHandler1 extends SQLiteOpenHelper {
         db.insert(Util.TABLE_NAME1, null, contentValues);
         db.close();
     }
+    public ArrayList<Point> getAllProd() {
+        SQLiteDatabase db = this.getReadableDatabase();
+        ArrayList<Point> prodList = new ArrayList<>();
+        String selectAllProd = "Select * from " + Util.TABLE_NAME + ";";
+        Cursor cursor = db.rawQuery(selectAllProd, null);
+        if (cursor.moveToFirst()) {
+
+            do {
+                Point products = new Point();
+                products.setId(Integer.parseInt(cursor.getString(0)));
+                products.setC(cursor.getInt(1));
+                products.setS(cursor.getInt(2));
+
+                prodList.add(products);
+            } while (cursor.moveToNext());
+        }
+        cursor.close();
+        return prodList;
+    }
 
 }

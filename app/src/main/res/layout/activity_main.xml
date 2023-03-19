@@ -145,6 +145,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginLeft="-10dp"
                 android:background="@drawable/deeded3"
                 android:textColor="@android:color/black"
                 android:textSize="15dp"
